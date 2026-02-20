@@ -14,3 +14,8 @@ Grow habits like virtual plants with streaks, growth stages, progress charts, an
 ```bash
 pip install matplotlib plyer
 python habit_garden_ultimate.py
+
+## Screenshots
+
+### Main UI
+![Main UI](screenshots/ui-main.png)
