@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Habit Garden 🌿</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #020617, #0f172a, #020617);
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    .card {
+      background: rgba(2, 6, 23, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 16px;
+      padding: 28px 24px;
+      max-width: 720px;
+      box-shadow: 0 20px 40px rgba(0,0,0,.35);
+    }
+    h1 { color: #22c55e; margin-top: 0; }
+    .btns a {
+      display: inline-block;
+      margin: 8px 10px 0 0;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #22c55e;
+      color: #020617;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .btns a.secondary {
+      background: transparent;
+      color: #22c55e;
+      border: 1px solid #22c55e;
+    }
+    ul { line-height: 1.7; }
+    .note { color: #94a3b8; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Digital Habit Garden 🌿</h1>
+    <p>A gamified habit-tracking desktop app built with Python + Tkinter.</p>
+
+    <ul>
+      <li>Plant growth stages (Seed → Bloom)</li>
+      <li>Streaks & motivation nudges</li>
+      <li>Weekly progress charts</li>
+      <li>Gradient UI & colorful cards</li>
+    </ul>
+
+    <div class="btns">
+      <a href="https://github.com/karthikbeats001-dot/digital-habit-garden" target="_blank">View Code on GitHub</a>
+      <a class="secondary" href="#" onclick="alert('This is a desktop app. Download & run from GitHub!')">How to Run</a>
+    </div>
+
+    <p class="note">
+      Note: This project is a desktop application. It runs locally on your PC and cannot run inside the browser.
+    </p>
+  </div>
+</body>
+</html>
