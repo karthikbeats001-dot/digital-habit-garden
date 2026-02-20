@@ -18,4 +18,4 @@ python habit_garden_ultimate.py
 ## Screenshots
 
 ### Main UI
-![Main UI](screenshots/ui-main.png)
+![Main UI](ui-main.png)
